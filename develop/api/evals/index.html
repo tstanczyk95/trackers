@@ -12,17 +12,19 @@
         <meta name="author" content="Roboflow">
       
       
-        <link rel="canonical" href="https://roboflow.github.io/trackers/develop/develop/api-evals/">
+        <link rel="canonical" href="https://roboflow.github.io/trackers/develop/develop/api/evals/">
       
       
-        <link rel="prev" href="../api-trackers/">
+        <link rel="prev" href="../motion/">
       
+      
+        <link rel="next" href="../io/">
       
       
         
       
       
-      <link rel="icon" href="../assets/logo-trackers-black.svg">
+      <link rel="icon" href="../../assets/logo-trackers-black.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
@@ -31,7 +33,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -50,13 +52,15 @@
       
     
     
-      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="../stylesheets/style.css">
+      <link rel="stylesheet" href="../../stylesheets/style.css">
     
-      <link rel="stylesheet" href="../stylesheets/rf.css">
+      <link rel="stylesheet" href="../../stylesheets/rf.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../stylesheets/command_builder.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -100,14 +104,14 @@
 
     <!-- Link to home -->
     <a
-      href=".."
+      href="../.."
       title="Trackers"
       class="md-header__button md-logo"
       aria-label="Trackers"
       data-md-component="logo"
     >
       
-  <img src="../assets/logo-trackers-violet.svg" alt="logo">
+  <img src="../../assets/logo-trackers-violet.svg" alt="logo">
 
     </a>
 
@@ -128,7 +132,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis" style="display: flex; align-items: center; gap: 0.5rem;">
             <a
-            href=".."
+            href="../.."
             title="Trackers"
             class="md-header__button md-logo"
             aria-label="Trackers"
@@ -136,7 +140,7 @@
             id="item-logo"
             >
             
-  <img src="../assets/logo-trackers-violet.svg" alt="logo">
+  <img src="../../assets/logo-trackers-violet.svg" alt="logo">
 
             </a>
             
@@ -313,7 +317,7 @@
     
     
       <li class="md-tabs__item">
-        <a href=".." class="md-tabs__link">
+        <a href="../.." class="md-tabs__link">
           
   
   
@@ -333,7 +337,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../trackers/comparison/" class="md-tabs__link">
+        <a href="../../trackers/comparison/" class="md-tabs__link">
           
   
   
@@ -353,7 +357,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../learn/install/" class="md-tabs__link">
+        <a href="../../learn/install/" class="md-tabs__link">
           
   
   
@@ -375,7 +379,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../api-trackers/" class="md-tabs__link">
+        <a href="../trackers/" class="md-tabs__link">
           
   
   
@@ -409,9 +413,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Trackers" class="md-nav__button md-logo" aria-label="Trackers" data-md-component="logo">
+    <a href="../.." title="Trackers" class="md-nav__button md-logo" aria-label="Trackers" data-md-component="logo">
       
-  <img src="../assets/logo-trackers-violet.svg" alt="logo">
+  <img src="../../assets/logo-trackers-violet.svg" alt="logo">
 
     </a>
     Trackers
@@ -490,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -577,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trackers/comparison/" class="md-nav__link">
+      <a href="../../trackers/comparison/" class="md-nav__link">
         
   
   
@@ -605,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trackers/sort/" class="md-nav__link">
+      <a href="../../trackers/sort/" class="md-nav__link">
         
   
   
@@ -633,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trackers/bytetrack/" class="md-nav__link">
+      <a href="../../trackers/bytetrack/" class="md-nav__link">
         
   
   
@@ -641,6 +645,34 @@
     
   
     ByteTrack
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers/ocsort/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OC-SORT
   
 
     
@@ -720,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../learn/install/" class="md-nav__link">
+      <a href="../../learn/install/" class="md-nav__link">
         
   
   
@@ -748,7 +780,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../learn/evaluate/" class="md-nav__link">
+      <a href="../../learn/track/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Track
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learn/evaluate/" class="md-nav__link">
         
   
   
@@ -838,7 +898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-trackers/" class="md-nav__link">
+      <a href="../trackers/" class="md-nav__link">
         
   
   
@@ -846,6 +906,34 @@
     
   
     Trackers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Motion
   
 
     
@@ -1212,6 +1300,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../io/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    I/O
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1749,7 +1865,7 @@ on <code>metrics</code>.</p>
 
 
 <h2 id="trackers.eval.evaluate.evaluate_mot_sequences" class="doc doc-heading">
-<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <code class="highlight language-python"><span class="n">trackers</span><span class="o">.</span><span class="n">eval</span><span class="o">.</span><span class="n">evaluate</span><span class="o">.</span><span class="n">evaluate_mot_sequences</span><span class="p">(</span><span class="n">gt_dir</span><span class="p">,</span> <span class="n">tracker_dir</span><span class="p">,</span> <span class="n">seqmap</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">benchmark</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">split</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">tracker_name</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+<code class="doc-symbol doc-symbol-heading doc-symbol-function"></code>            <code class="highlight language-python"><span class="n">trackers</span><span class="o">.</span><span class="n">eval</span><span class="o">.</span><span class="n">evaluate</span><span class="o">.</span><span class="n">evaluate_mot_sequences</span><span class="p">(</span><span class="n">gt_dir</span><span class="p">,</span> <span class="n">tracker_dir</span><span class="p">,</span> <span class="n">seqmap</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span></code>
 
 </h2>
 
@@ -1769,27 +1885,23 @@ and metric calculations of
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Supported dataset layouts</p>
+<p>Both <code>gt_dir</code> and <code>tracker_dir</code> should point directly at the parent directory
+of the sequences. The evaluator auto-detects which layout you're using.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1_1" name="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1" type="radio" /><input id="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1_2" name="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1_1">MOT layout</label><label for="trackers.eval.evaluate.evaluate_mot_sequences--__tabbed_1_2">Flat layout</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>gt_dir/
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>└── MOT17-train/
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    ├── MOT17-02-FRCNN/
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    │   └── gt/gt.txt
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    ├── MOT17-04-FRCNN/
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    │   └── gt/gt.txt
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    ├── MOT17-05-FRCNN/
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    │   └── gt/gt.txt
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    └── ...
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>tracker_dir/
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>└── MOT17-train/
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    └── ByteTrack/
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>        └── data/
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>            ├── MOT17-02-FRCNN.txt
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            ├── MOT17-04-FRCNN.txt
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>            ├── MOT17-05-FRCNN.txt
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>            └── ...
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── MOT17-02-FRCNN/
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   └── gt/gt.txt
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├── MOT17-04-FRCNN/
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   └── gt/gt.txt
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>└── MOT17-05-FRCNN/
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    └── gt/gt.txt
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>tracker_dir/
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>├── MOT17-02-FRCNN.txt
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>├── MOT17-04-FRCNN.txt
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>└── MOT17-05-FRCNN.txt
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
@@ -1831,7 +1943,9 @@ and metric calculations of
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Directory with ground-truth files.</p>
+                <p>Directory containing ground-truth data. Should be the direct
+parent of the sequence folders (MOT layout) or sequence files
+(flat layout).</p>
               </div>
             </td>
             <td>
@@ -1847,7 +1961,7 @@ and metric calculations of
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Directory with tracker prediction files.</p>
+                <p>Directory containing tracker prediction files (<code>{seq}.txt</code>).</p>
               </div>
             </td>
             <td>
@@ -1902,54 +2016,6 @@ evaluated.</p>
             </td>
             <td>
                   <code>0.5</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>benchmark</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span> | None</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Override auto-detected benchmark name (e.g., <code>"MOT17"</code>).</p>
-              </div>
-            </td>
-            <td>
-                  <code>None</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>split</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span> | None</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Override auto-detected split name (e.g., <code>"train"</code>, <code>"val"</code>).</p>
-              </div>
-            </td>
-            <td>
-                  <code>None</code>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>tracker_name</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span> | None</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Override auto-detected tracker name.</p>
-              </div>
-            </td>
-            <td>
-                  <code>None</code>
             </td>
           </tr>
       </tbody>
@@ -2009,7 +2075,7 @@ evaluated.</p>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>If auto-detection finds multiple valid options.</p>
+                <p>If no sequences are found.</p>
               </div>
             </td>
           </tr>
@@ -2146,7 +2212,7 @@ requested.</p>
 
 
 
-  <div class="doc doc-children">
+<div class="doc doc-children">
 
 
 
@@ -2509,7 +2575,7 @@ metrics.</p>
 
 
 
-  <div class="doc doc-children">
+<div class="doc doc-children">
 
 
 
@@ -3213,7 +3279,7 @@ again.</p>
 
 
 
-  <div class="doc doc-children">
+<div class="doc doc-children">
 
 
 
@@ -3537,7 +3603,7 @@ precision is less meaningful.</p>
 
 
 
-  <div class="doc doc-children">
+<div class="doc doc-children">
 
 
 
@@ -3845,7 +3911,7 @@ to the wrong global ID.</p>
 
 
 
-  <div class="doc doc-children">
+<div class="doc doc-children">
 
 
 
@@ -4122,12 +4188,16 @@ to the wrong global ID.</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.tracking", "navigation.expand", "navigation.tabs"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.tracking", "navigation.expand", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/pycon_copy.js"></script>
+        <script src="../../javascripts/pycon_copy.js"></script>
+      
+        <script src="../../javascripts/cli_builder_framework.js"></script>
+      
+        <script src="../../javascripts/command_builder.js"></script>
       
     
   </body>
